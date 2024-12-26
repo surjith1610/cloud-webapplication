@@ -1,0 +1,14 @@
+[Unit]
+Description=Django Web Application
+After=network.target
+
+[Service]
+User=csye6225
+Group=csye6225
+WorkingDirectory=/home/csye6225/webapp
+EnvironmentFile=/etc/environment
+ExecStart=/home/csye6225/webapp/venv/bin/python /home/csye6225/webapp/manage.py runserver 0.0.0.0:8000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
