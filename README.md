@@ -2,6 +2,11 @@
 
 This web application is built using **Django** and **PostgreSQL**, designed to run on any Ubuntu server. It integrates **AWS Lambda** for user verification and **SendGrid** for email services. The project also features **CI/CD** implemented using **Terraform**.
 
+## Please check the Terraform repository for the reusable Infrastructure code here: 
+https://github.com/surjith1610/terraform-webapp-infrastructure
+## Please check the serverless function repository for the user verification lambda function code here:
+https://github.com/surjith1610/serverless-webapp-function
+
 ## Features
 
 ### APIs
